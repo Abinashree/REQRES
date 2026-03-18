@@ -28,7 +28,30 @@
 // console.log(output);}
 
 // let a=5;
-for(a=0;a<=5;a++){
-    console.log(a);
+// for(a=0;a<=5;a++){
+//     console.log(a);
     
-}
+// }
+
+
+
+let str="I'm not good at all";
+let rev="";
+for(i=str.length-1;i>=0;i--){
+rev +=str[i];
+}console.log(rev);
+
+let word="mummy";
+let count={};
+for(const output of word){
+    if(count[output]){
+    count[output]++;
+    
+}else{
+    count[output]=1;
+    
+}}console.log(count);
+
+
+
+
