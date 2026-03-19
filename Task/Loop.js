@@ -118,9 +118,25 @@
 // }
 
 //---------------------------------
-for (let a=10;a=1;a++){
+// for (let a=10;a=1;a++){
+    
+// }
+
+let string = "Reverse the string";
+let reverse ="";
+for(i=string.length-1;i>=0;i--){
+    reverse += string[i];
+}console.log(reverse);
+
+
+let stringcount="Count each letter";
+let number={};
+for(const count of stringcount){
+    if(number[count]){
+    number[count]++;
+}else{
+    number[count]=1;
     
 }
-
-
-
+}console.log(number);
+gi

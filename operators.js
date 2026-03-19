@@ -263,10 +263,11 @@ let str="electricity";
 let output = {};
 for(const count of str){
     if(output[count]){
-        output[count]=(output[count]||0)+1;
+        output[count]++;
+    }else{
+        output[count]=1;
     }
-    // else{
-    //     output=1;
+    
     }
 
 console.log(output);
